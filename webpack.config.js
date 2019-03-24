@@ -1,3 +1,4 @@
+
 const path = require('path');
 
 module.exports = {
@@ -14,10 +15,6 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
-      },
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
       }
     ]
   }
